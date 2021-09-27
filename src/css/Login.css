@@ -1,0 +1,74 @@
+
+.box{
+  top: 75px;
+  width: 120px;
+  height: 850px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-f0eff4);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #2A28661A;
+  border: 1px solid #F0EFF4;
+  border-radius: 25px;
+  opacity: 1;
+  }
+  .back{
+  top: -1115.427734375px;
+  left: -397.73541259765625px;
+  width: 2342px;
+  height: 1974px;
+  transform: matrix(0.92, 0.39, -0.39, 0.92, 0, 0);
+  background: var(--unnamed-color-2a2866) 0% 0% no-repeat padding-box;
+  background: #2A2866 0% 0% no-repeat padding-box;
+  border-radius: 180px;
+  opacity: 1;
+  }
+  .loginaadmin{
+  top: 644px;
+  left: 615px;
+  width: 534px;
+  height: 74px;
+  background: var(--unnamed-color-2a2866) 0% 0% no-repeat padding-box;
+  background: #2A2866 0% 0% no-repeat padding-box;
+  border: 1px solid #2A28663D;
+  opacity: 1;
+  }
+ .login{
+ top: 266px;
+ left: 809px;
+ width: 146px;
+ height: 45px;
+ color: var(--unnamed-color-2a2866);
+ text-align: center;
+ font: normal normal bold 25px/407px FC Iconic;
+ letter-spacing: 0.9px;
+ color: #2A2866;
+ opacity: 1;
+ }
+  
+  .login2{
+  top: 729px;
+  left: 615px;
+  width: 534px;
+  height: 74px;
+  background: var(--unnamed-color-f9f9fb) 0% 0% no-repeat padding-box;
+  background: #F9F9FB 0% 0% no-repeat padding-box;
+  opacity: 1;
+  }
+  .login3{
+  top: 814px;
+  left: 615px;
+  width: 534px;
+  height: 74px;
+  background: var(--unnamed-color-f9f9fb) 0% 0% no-repeat padding-box;
+  background: #F9F9FB 0% 0% no-repeat padding-box;
+  opacity: 1;
+  }
+  .loginall{
+  top: 899px;
+  left: 615px;
+  width: 534px;
+  height: 74px;
+  background: var(--unnamed-color-f9f9fb) 0% 0% no-repeat padding-box;
+  background: #F9F9FB 0% 0% no-repeat padding-box;
+  opacity: 1;
+  }

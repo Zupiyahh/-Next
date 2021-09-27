@@ -19,7 +19,7 @@
   color: white;
 }
 .App-link {
-  color: #09d3ac;
+  color: #8B929D;
 }
 .textpro {
   color: #2A2866;
@@ -57,6 +57,7 @@
   text-align: left;
 }
  .head{
+    top: -10px;
   width: 1325px;
   height: 150px; 
   background: var(--unnamed-color-2a2866) 0% 0% no-repeat padding-box;
@@ -77,6 +78,16 @@
   left: 1px;
   width: 256px;
   height: 55px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  ;
+ }
+ .menu{
+  color: #2A2866;
+  top: 30px;
+  left: 25px;
+  width: 256px;
+  height: 43px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   ;
@@ -134,7 +145,7 @@
 .box5{
   top: 1px;
   width: 895px;
-  height: 1330px;
+  height: 1080px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   border: 1px solid var(--unnamed-color-f0eff4);
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -144,7 +155,6 @@
 }
 .text7{
   height: 60px;
-  left: 120px;
   color: var(--unnamed-color-ffffff);
   text-align: left;
   font: normal normal bold 15px/70px FC Iconic;
@@ -171,18 +181,25 @@
     color: #2A2866;
     text-align: left;
     right: -250px;
-    width: 241px;
+    width: 260px;
     height: 47px;
     background:#F9F9FB ;
     border: 1px solid var(--unnamed-color-f0eff4);
     background: #F0EFF4 0% 0% no-repeat padding-box;
     border-radius: 10px;
   }
-  .background{
-  background-image: url("./css/login.png");
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-size: 30px 10px; */
+  .cradmenu{
+  top: 1px;
+  width: 900px;
+  height: 90px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #F0EFF4;
+  color: #2A2866;
+  text-align: left;
+  font: normal normal bold 15px/px FC Iconic;
+  letter-spacing: 0px;
+  padding: 1px;
+  opacity: 1;
   }
 
