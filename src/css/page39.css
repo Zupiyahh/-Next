@@ -57,17 +57,16 @@
   text-align: left;
 }
  .head{
-    top: -10px;
+  top: -10px;
   width: 1325px;
   height: 150px; 
   background: var(--unnamed-color-2a2866) 0% 0% no-repeat padding-box;
   background: #2A2866 0% 0% no-repeat padding-box;
   opacity: 1;
  }
-
  .dropdown2{
   color: #2A2866;
-  top: 10px;
+  top: 30px;
   left: 20px;
   width: 256px;
   height: 45px;
@@ -92,10 +91,9 @@
   background: #FFFFFF 0% 0% no-repeat padding-box;
   ;
  }
-
  .botton{
   top: 40px;
- left: 980px;
+  left: 980px;
   width: 227px;
   height: 43px;
   opacity: 1;
@@ -130,9 +128,8 @@
   border-radius: 30px 20px 20px 30px;
   opacity: 1;
  }
-
 .box4{
-  top: 1px;
+  top: 10px;
   width: 300px;
   height: 265px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
@@ -155,6 +152,7 @@
 }
 .text7{
   height: 60px;
+  padding-left: 80px;
   color: var(--unnamed-color-ffffff);
   text-align: left;
   font: normal normal bold 15px/70px FC Iconic;
@@ -163,7 +161,7 @@
 }
 .crad{
   top: 10px;
-  width: 900px;
+  width: 500px;
   height: 80px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   border: 0px solid var(--unnamed-color-f0eff4);
@@ -173,7 +171,7 @@
   text-align: left;
   font: normal normal bold 15px/1px FC Iconic;
   letter-spacing: 0px;
-  padding: 1px;
+  padding: 10px;
   opacity: 1;
   }
   .cradgrid{
@@ -181,7 +179,7 @@
     color: #2A2866;
     text-align: left;
     right: -250px;
-    width: 241px;
+    width: 200px;
     height: 47px;
     background:#F9F9FB ;
     border: 1px solid var(--unnamed-color-f0eff4);
@@ -189,17 +187,14 @@
     border-radius: 10px;
   }
   .cradmenu{
-  top: 20px;
-  width: 900px;
-  height: 90px;
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  width: 300;
+  height:90;
+  margin-top:20 ;
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  border: 1px solid #F0EFF4;
-  color: #2A2866;
-  text-align: left;
-  font: normal normal bold 15px/px FC Iconic;
-  letter-spacing: 0px;
-  padding: 1px;
-  opacity: 1;
+  }
+  .gutter-row {
+ background: blue;
+ padding: 8px;
+
   }
 

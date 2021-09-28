@@ -2,7 +2,7 @@
 import React from 'react';
 import '../css/page39.css';
 import { mockdata } from '../mock/mockdata';
-import { Layout, Avatar, Menu, Dropdown, Button, message, Space, Row, Col, Card } from 'antd';
+import { Layout, Avatar, Menu, Dropdown, Button, message, Space, Row, Col, Card, Title } from 'antd';
 import { PieChartOutlined, DownOutlined, FileTextOutlined, UserOutlined, PhoneOutlined, LoginOutlined, CheckCircleFilled } from '@ant-design/icons';
 
 const { Header, Sider, Content } = Layout;
@@ -13,14 +13,14 @@ function handleMenuClick(e) {
 }
 
 const menu = (
-  <Menu onClick={handleMenuClick}>
-    <Menu.Item className="textpro" key="1" icon={<UserOutlined />}>
+   <Menu>
+   <Menu.Item className="textpro" key="0" icon={<UserOutlined />}>
       โปรไฟล์ของฉัน
-    </Menu.Item>
-    <Menu.Item className="textlogout" key="2" icon={<LoginOutlined />}>
-      <a href={"/LoginScreen"}>ออกจากระบบ</a>
-    </Menu.Item>
-  </Menu>
+   </Menu.Item>
+   <Menu.Item className="textlogout" key="1" icon={<LoginOutlined />}>
+   <a href={"/LoginScreen"}>ออกจากระบบ</a>
+   </Menu.Item>
+ </Menu>
 );
 const menu1 = (
   <Menu onClick={handleMenuClick}>
@@ -56,9 +56,9 @@ function pScreen() {
         <Header className="head">
           <Space wrap>
             <Dropdown overlay={menu}>
-              <Button className="botton">
-                <DownOutlined />
-              </Button>
+              <a className="botton" onClick={e => e.preventDefault()}>
+              <DownOutlined />
+              </a>
             </Dropdown>
             {/* <h2 className="text3">สมหมาย วงศ์เสรี</h2>
           <p className="text4">แอดมิน</p> */}
@@ -78,7 +78,7 @@ function pScreen() {
                       <DownOutlined />
                     </Button>
                   </Dropdown>
-                  <Card className="cradmenu" style={{ width: 300 }}>สมาคม</Card>
+                  <Card className="cradmenu" style={{ width: 300,height:90, marginTop:20 }}>สมาคม</Card>
                   <Card className="cradmenu" style={{ width: 300 }}>ผู้จัด</Card>
                   <Card className="cradmenu" style={{ width: 300 }}>สโมสร</Card>
                 </div>
@@ -112,13 +112,13 @@ const Stock = ({ company }) => {
   if (!company) return <div />;
   return (
     <div>
-        <Card className="crad" style={{ width: 790 }}>{company}
-          <center>
-            <Button className="cradgrid" type="primary" icon={<CheckCircleFilled />} >
-              เสร็จสมบูรณ์
-            </Button>
-          </center>
-        </Card>
+      <Card className="crad" style={{ width: 790 }}>{company}
+        <center>
+          <Button className="cradgrid" type="primary" icon={<CheckCircleFilled />} >
+            เสร็จสมบูรณ์
+          </Button>
+        </center>
+      </Card>
     </div>
   );
 };
